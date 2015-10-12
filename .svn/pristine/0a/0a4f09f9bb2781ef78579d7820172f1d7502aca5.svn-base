@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guiaescalada"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme">
+        
+        <activity
+            android:name="com.example.guiaescalada.Splash"
+            android:label="Guia Escalada" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.AppPrincipal"
+            android:label="Menu Principal"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.appprincipal" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.MenuLugar"
+            android:label="Titulo lugar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.menulugar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.LlegarActivity"
+            android:label="llegar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.llegar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.MapaActivity"
+            android:label="Mapa"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.mapa" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.ZonaActivity"
+            android:label="Titulo Zona"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.zona" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.Convertidor"
+            android:label="convertidor de graduacion"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.convertidor" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.Contacto"
+            android:label="contacto"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.contacto" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.DescripcionLugar"
+            android:label="Descripción del lugar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.descripcionlugar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.ComoLlegar"
+            android:label="Como llegar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.comollegar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.ListaLugares"
+            android:label="Lista topos"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.listatopos" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.Topos"
+            android:label="Topos"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.topos" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.DondeAcampar"
+            android:label="Donde acampar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.dondeacampar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.Peligros"
+            android:label="Peligros"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.peligros" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.guiaescalada.Clima"
+            android:label="Clima"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.guiaescalada.clima" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

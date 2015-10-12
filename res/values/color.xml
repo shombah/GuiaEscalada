@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="bg_indisa">#00A0DF</color>
+    <color name="green">#008000</color>
+     <color name="bg_indisa_inferior">#2472B3</color>
+     <color name="font_grey3">#D5D9D9</color>
+      <color name="transparent">#00000000</color>
+      <color name="negro20">#33000000</color>
+      <color name="negro50">#80000000</color>
+</resources>

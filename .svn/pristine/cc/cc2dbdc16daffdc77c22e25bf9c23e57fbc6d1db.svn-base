@@ -1,0 +1,115 @@
+package com.example.guiaescalada;
+
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import junit.framework.Assert;
+
+import com.example.guiaescalada.adapter.Lista_adaptador;
+import com.example.guiaescalada.beans.Lugar;
+import com.example.guiaescalada.R;
+
+public class ListaLugares extends Activity {
+	
+	TextView title;
+	boolean bAgregado, bYaEsta;
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
+		setContentView(R.layout.listalugares);
+		getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.tituloprincipal);
+		title = (TextView) findViewById(R.id.title);
+		title.setText("Lista de lugares");
+       
+		try {
+			ListView lista = (ListView) findViewById(R.id.ListView_lista_lugares);
+			lista.setAdapter(new Lista_adaptador(this, R.layout.entrada, AppPrincipal.listaLugares){
+				@Override
+				public void onEntrada(Object entrada, View view) {
+					if (entrada != null) {
+			            TextView textView_nombre = (TextView) view.findViewById(R.id.textView_nombre);
+			            if (textView_nombre != null) 
+			            	textView_nombre.setText(((Lugar) entrada).getNombre()); 
+
+			            TextView textView_zonas = (TextView) view.findViewById(R.id.textView_zonas); 
+			            if (textView_zonas != null)
+			            	textView_zonas.setText("zonas: "+((Lugar) entrada).getCantidadZonas());
+			            
+			            TextView textView_rutas = (TextView) view.findViewById(R.id.textView_rutas); 
+			            if (textView_rutas != null)
+			            	textView_rutas.setText("rutas: "+((Lugar) entrada).getCantidadRutas()); 
+
+			            ImageView imagen_lugar = (ImageView) view.findViewById(R.id.imagen_lugar); 
+			            int id = this.getDrawable(ListaLugares.this, ((Lugar) entrada).getImagen_lugar());
+			            imagen_lugar.setImageResource(id);
+					}
+				}
+				public int getDrawable(Context context, String name){
+			        Assert.assertNotNull(context);
+			        Assert.assertNotNull(name);
+			        return context.getResources().getIdentifier(name,"drawable", context.getPackageName());
+			    }
+	       });
+        
+	       lista.setOnItemClickListener(new OnItemClickListener() {
+				@Override
+				public void onItemClick(AdapterView<?> pariente, View view, int posicion, long id) {
+					bAgregado = false;
+					Lugar elegido = (Lugar) pariente.getItemAtPosition(posicion);
+					Intent intent = new Intent ("com.example.guiaescalada.menulugar");
+					intent.putExtra("parametro", elegido);
+
+			        SharedPreferences sharedPreferences = getSharedPreferences("SharedPreferences", Context.MODE_PRIVATE);
+			        Editor editor = sharedPreferences.edit();
+			        
+			        for(int i = 0; i<4; i++){
+			        	bYaEsta = false;
+			        	for(int j = 0; j<4; j++){
+			        		if(sharedPreferences.getString("Numero" + j, "").equals(elegido.getNombre())){
+			        			i = 4;
+			        			bYaEsta = true;
+			        			break;
+			        		}
+			        	}
+			        	
+			        	if(sharedPreferences.getString("Numero" + i, "").equals("") && bYaEsta == false){
+		        			editor.putString("Numero" + i, elegido.getNombre());
+		        			bAgregado = true;
+		        			break;
+			        	}
+			        }
+			        
+			        if(bAgregado == false && bYaEsta == false){
+			        	for(int i = 1; i<4; i++){
+			        		int j = i-1;
+			        		editor.putString("Numero" + j, sharedPreferences.getString("Numero" + i, ""));
+			        	}
+			        	editor.putString("Numero" + 3, elegido.getNombre());
+			        }
+					editor.commit();
+					startActivity(intent);
+				}
+	       });
+       } catch (Exception e) {
+			e.printStackTrace();
+	   }
+	}
+	
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+		Intent intent = new Intent ("com.example.guiaescalada.appprincipal");
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(intent);
+	}
+}

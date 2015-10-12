@@ -1,0 +1,100 @@
+package com.example.guiaescalada;
+
+import java.util.ArrayList;
+
+import com.example.guiaescalada.beans.Escala;
+import com.example.guiaescalada.beans.Grado;
+import com.example.guiaescalada.parser.EscalasParser;
+import com.example.guiaescalada.R;
+
+import android.content.res.AssetManager;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+public class Convertidor extends ListaLugares {
+    ArrayList<Escala> listaEscalas = new ArrayList<Escala>();
+ 	ArrayList<Grado> grados = new ArrayList<Grado>();
+	int gradoId = 0, escalaObjetivoId = 1, escalaOriginalId = 1;
+    Escala escalaOriginal = new Escala();
+    Escala escalaObjetivo = new Escala();
+
+	@Override  
+	protected void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState); 
+        setContentView(R.layout.convertidor);
+        this.title.setText("Convertidor de graduación");
+        AssetManager assetMan = getAssets();
+        
+        EscalasParser oEscalasParser = new EscalasParser(assetMan);
+        listaEscalas = oEscalasParser.getEscalas();
+        
+        final Spinner spinnerGrado = (Spinner)findViewById(R.id.spGrado);
+        final TextView txtTexto = (TextView)findViewById(R.id.resultado);
+        final Spinner spinnerOriginal = (Spinner) findViewById(R.id.spEscOriginal);
+        final Spinner spinnerConvertir = (Spinner) findViewById(R.id.spEscDestino);
+       
+        ArrayAdapter<Escala> spinner_adapter = new ArrayAdapter<Escala>(Convertidor.this, android.R.layout.simple_spinner_item, listaEscalas);
+        spinner_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerOriginal.setAdapter(spinner_adapter);
+        spinnerConvertir.setAdapter(spinner_adapter);
+        spinnerConvertir.setSelection(1);
+        escalaObjetivo = listaEscalas.get(1);
+        escalaOriginal = listaEscalas.get(0);
+        
+        spinnerOriginal.setOnItemSelectedListener(new OnItemSelectedListener(){
+    	    public void onItemSelected(AdapterView<?> parent, View view, int pos,long id) {
+	    	   escalaOriginalId = ((Escala) parent.getItemAtPosition(pos)).getId();
+ 	 		   for(int i = 0; i<listaEscalas.size(); i++){
+ 	 				if(escalaOriginalId == listaEscalas.get(i).getId()){
+ 	 					escalaOriginal = listaEscalas.get(i);
+ 	 					break;
+ 	 				}
+ 	 			}
+ 	 			
+ 	 			grados = escalaOriginal.getGrados();
+ 	 			ArrayAdapter<Grado> spinner_adapter = new ArrayAdapter<Grado>(Convertidor.this, android.R.layout.simple_spinner_item, grados);
+ 	 			spinner_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+ 	 			spinnerGrado.setAdapter(spinner_adapter);
+ 	 			
+				txtTexto.setText(escalaObjetivo.buscaGrado(gradoId));
+	 	 	}
+    	   
+	 	 	public void onNothingSelected(AdapterView<?> parent) {
+	 	 		// Do nothing.
+	 	 	}
+	   });
+	       
+       spinnerGrado.setOnItemSelectedListener(new OnItemSelectedListener(){
+    	   public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+ 	 			gradoId = ((Grado)parent.getItemAtPosition(pos)).getId();
+ 				txtTexto.setText(escalaObjetivo.buscaGrado(gradoId));
+	 	   }
+    	   
+ 	 	   public void onNothingSelected(AdapterView<?> parent) {
+	 	 		// Do nothing.
+    	   }
+	   }); 
+	       
+       spinnerConvertir.setOnItemSelectedListener(new OnItemSelectedListener(){
+	    	public void onItemSelected(AdapterView<?> parent, View view, int pos,long id) {
+	    		escalaObjetivoId = ((Escala) parent.getItemAtPosition(pos)).getId();
+ 	 			for(int i = 0; i<listaEscalas.size(); i++){
+ 	 				if(escalaObjetivoId == listaEscalas.get(i).getId()){
+ 	 					escalaObjetivo = listaEscalas.get(i);
+ 	 					txtTexto.setText(escalaObjetivo.buscaGrado(gradoId));
+ 	 					break;
+ 	 				}
+ 	 			}
+	 	 	}
+	    	 
+	 	 	public void onNothingSelected(AdapterView<?> parent) {
+	 	 		// Do nothing.
+	 	 	}
+	   }); 
+	}
+}

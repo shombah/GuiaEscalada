@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+	<ImageView
+	    android:id="@+id/logo"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:scaleType="centerCrop"
+	    android:src="@drawable/bg_descripcion"/>
+	<LinearLayout
+			    android:layout_height="wrap_content"
+			    android:layout_width="fill_parent"
+			    android:orientation="vertical">
+		
+		<LinearLayout 
+		    android:id="@+id/header"
+		    android:layout_height="60dp"
+		    android:layout_width="fill_parent"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal"
+		    android:background="@drawable/text_wrapper_peligros"
+		    android:layout_marginLeft="25dp"
+		    android:layout_marginRight="25dp"
+		    android:layout_marginTop="20dp"
+		    		    >
+			    <TextView
+		        android:id="@+id/texto_titulo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Convertidor de Unidades"
+		        android:textSize="23sp"
+		        android:textColor="@color/blanco"
+		        >
+		    	</TextView>
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/titulosWheel" 
+		    android:layout_below="@+id/header"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:paddingLeft="25dp">
+		     <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/negro"
+	            android:text="Escala Original           Grados     Escala Objetivo"/> 
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/wheel"
+	        android:layout_below="@+id/titulosWheel"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:layout_gravity="center_horizontal"
+	        android:orientation="horizontal"
+	        android:paddingLeft="25dp">
+	        
+	       
+	        <kankan.wheel.widget.WheelView android:id="@+id/escalasOriginalWheel"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"/>
+	        <kankan.wheel.widget.WheelView android:id="@+id/gradosWheel"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"/>
+	        <kankan.wheel.widget.WheelView android:id="@+id/escalasObjetivoWheel"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"/>
+	    </LinearLayout>
+	    <LinearLayout 
+		    android:id="@+id/box_resultado"
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal"
+		    android:background="@drawable/text_wrapper_peligros"
+		    android:layout_marginLeft="25dp"
+		    android:layout_marginRight="25dp"
+		    android:layout_marginTop="10dp"
+		    android:layout_below="@+id/wheel"
+		    >
+			    <TextView
+		        android:id="@+id/resultado_conversion"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="El resultado es :\n\t\t\t\t\t\t\t\t\t XX"
+		        android:textSize="26sp"
+		        android:textColor="@color/blanco"
+		        >
+		    	</TextView>
+		    
+		</LinearLayout>
+	  </LinearLayout>
+   
+        
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MisterTopo</string>
+    <string name="hello_world">Slogan de Míster Topo</string>
+    <string name="search_hint">Ingrese ruta o lugar</string>
+    <string name="title_activity_wheel">Wheel</string>
+
+</resources>

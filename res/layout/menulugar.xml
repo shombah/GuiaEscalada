@@ -1,0 +1,202 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+		<ImageView
+		    android:id="@+id/logo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:scaleType="centerCrop"
+		    android:src="@drawable/bg_menulugar1" />
+  
+	<LinearLayout
+	    android:id="@+id/opcionesLugar"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical">
+	    
+	    <LinearLayout 
+	        android:id="@+id/menulugar1"
+	        android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="10dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+	     	
+		    <Button
+		        android:id="@+id/ver_topos"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@drawable/button_cerca"
+		        android:drawableLeft="@drawable/topo100"
+		        android:textColor="@color/blanco"
+		        android:text=" Ver Topos               "/>
+		</LinearLayout>
+		
+		<LinearLayout
+	        android:id="@+id/menulugar2"
+		    android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+		    
+	    	<Button
+		        android:id="@+id/descripcion"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text=" Descripción            "
+		        android:drawableLeft="@drawable/icono_descripcion"
+		        android:textColor="@color/blanco"
+				android:background="@drawable/button_cerca"/>
+		</LinearLayout>
+		
+	    <LinearLayout 
+	        android:id="@+id/menulugar3"
+	        android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+	    	
+		    <Button
+		        android:id="@+id/dondeAcampar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+				android:background="@drawable/button_cerca"
+		        android:drawableLeft="@drawable/icono_acampar" 
+		        android:textColor="@color/blanco"
+		        android:text=" ¿Dónde Acampar?"/>
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:id="@+id/menulugar4"
+		    android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+		    
+		    <Button
+		        android:id="@+id/como_llegar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@drawable/button_cerca"
+		        android:drawableLeft="@drawable/icono_comollegar"
+		        android:textColor="@color/blanco"
+		        android:text=" ¿Cómo Llegar?      "/>
+		</LinearLayout>
+	
+		<LinearLayout
+		    android:id="@+id/menulugar5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="0dp"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+		    
+			<Button
+		        android:id="@+id/peligros"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="@drawable/button_cerca"
+		        android:drawableLeft="@drawable/icono_peligros"
+		        android:textColor="@color/blanco"
+		        android:text=" ¡Peligros!                "/>
+		</LinearLayout>
+	
+		<LinearLayout
+		    android:id="@+id/menulugar6"
+		    android:layout_width="wrap_content"
+		    android:layout_height="0dp"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+			
+			<Button
+		        android:id="@+id/clima"
+		        android:layout_width="fill_parent"
+		        android:layout_height="match_parent"
+		        android:background="@drawable/button_cerca"
+		        android:drawableLeft="@drawable/icono_weather"
+		        android:textColor="@color/blanco"
+		        android:text=" Revisar Clima *     "/>
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="0dp"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="0.4">
+			
+			<TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:textColor="@color/negro"
+		        android:text="* Requiere conexión a internet"/>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/opcionesRA"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical"
+	    android:visibility="gone">
+	    
+	    <LinearLayout 
+		    android:id="@+id/menulugar10"
+		    android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+		    <Button 
+		        android:id="@+id/normal"
+		        android:textColor="@color/blanco"
+		        android:background="@drawable/buttons2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:drawableLeft="@drawable/classic"
+		        android:text=" Clásico                       "/>
+		 </LinearLayout>
+	    
+	    <LinearLayout 
+		    android:id="@+id/menulugar11"
+		    android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+		    <Button 
+		        android:id="@+id/ir"
+		        android:textColor="@color/blanco"
+	            android:background="@drawable/buttons2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:drawableLeft="@drawable/image_recognition"
+		        android:text=" Image Recognition "/>
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+		    android:id="@+id/menulugar12"
+		    android:layout_height="0dp"
+	        android:layout_width="wrap_content"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="5dp"
+	     	android:layout_weight="1">
+		    <Button 
+		        android:textColor="@color/blanco"
+		       	android:id="@+id/poi"
+		        android:background="@drawable/buttons2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:drawableLeft="@drawable/point_at_location"
+		        android:text=" Point at location      "
+		        android:layout_marginTop="10dp"/>
+		 </LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

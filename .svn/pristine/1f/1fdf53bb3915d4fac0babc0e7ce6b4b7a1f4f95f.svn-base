@@ -1,0 +1,142 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+		<ImageView
+		    android:id="@+id/logo"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:scaleType="centerCrop"
+		    android:src="@drawable/bg_weather1" />
+		<ScrollView 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:fadeScrollbars="false">
+			<LinearLayout
+			    android:layout_height="wrap_content"
+			    android:layout_width="fill_parent"
+			    android:orientation="vertical">
+			    
+			    <LinearLayout
+				    android:layout_height="fill_parent"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="10dp"
+				    android:orientation="horizontal"		        
+				    android:layout_gravity="center_horizontal"
+				    android:layout_marginTop="10dp">
+					<!-- Estos linear layour hay que ponerles la wea del peso o algo para cambiar los margin, no me acuerdo comos e hace :( 
+					
+					Estos iconos hay que resizearlos en el java, estamos trabajando para usted -->
+			        <ImageView
+			            android:id="@+id/iconoclima0"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:src="@drawable/icono_weather" />
+		     	
+				    <Button
+				        android:id="@+id/clima_0"
+				        android:gravity="top"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:background="@drawable/button_cerca"
+				        android:textColor="@color/blanco"
+				        android:text="Clima"/>
+				</LinearLayout>
+				
+				<LinearLayout
+				    android:layout_height="fill_parent"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="10dp"
+				    android:orientation="horizontal"
+				    android:layout_gravity="center_horizontal"
+				    android:layout_marginTop="10dp">
+					<ImageView
+			            android:id="@+id/iconoclima1"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:src="@drawable/icono_weather" />
+				    <Button
+				        android:id="@+id/clima_1"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:background="@drawable/button_cerca"
+				        android:gravity="top"
+				        android:text="Clima1"
+				        android:textColor="@color/blanco" />
+				</LinearLayout>
+				
+				<LinearLayout
+				    android:layout_height="fill_parent"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="10dp"
+				    android:orientation="horizontal"		        
+				    android:layout_gravity="center_horizontal"
+				    android:layout_marginTop="10dp">
+				    <ImageView
+			            android:id="@+id/iconoclima2"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:src="@drawable/icono_weather" />
+				    <Button
+				        android:id="@+id/clima_2"
+				        android:gravity="top"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				       	android:background="@drawable/button_cerca"
+				        android:textColor="@color/blanco"
+				        android:text="Clima2"/>
+			    </LinearLayout>
+			    
+			    <LinearLayout
+				    android:layout_height="fill_parent"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="10dp"
+				    android:orientation="horizontal"
+	   		        android:layout_gravity="center_horizontal"
+				    android:layout_marginTop="10dp">
+				    <ImageView
+			            android:id="@+id/iconoclima3"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:src="@drawable/icono_weather" />
+				    <Button
+				        android:id="@+id/clima_3"
+				        android:gravity="top"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:background="@drawable/button_cerca"
+				        android:textColor="@color/blanco"
+				        android:text="Clima3"/>
+				 </LinearLayout>
+				    
+				<LinearLayout
+				    android:layout_height="fill_parent"
+				    android:layout_width="fill_parent"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="10dp"
+				    android:orientation="horizontal"
+	   		        android:layout_gravity="center_horizontal"
+				    android:layout_marginTop="10dp">
+				    <ImageView
+			            android:id="@+id/iconoclima4"
+			            android:layout_width="100dp"
+			            android:layout_height="100dp"
+			            android:src="@drawable/icono_weather" />
+					    <Button
+					        android:id="@+id/clima_4"
+					        android:gravity="top"
+					        android:layout_width="fill_parent"
+					        android:layout_height="fill_parent"
+					        android:background="@drawable/button_cerca"
+					        android:textColor="@color/blanco"
+					        android:text="Clima4"/>
+			    </LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+</RelativeLayout>

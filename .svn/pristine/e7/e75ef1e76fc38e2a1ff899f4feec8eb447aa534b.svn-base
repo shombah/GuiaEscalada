@@ -1,0 +1,123 @@
+package com.example.guiaescalada;
+
+import java.io.InputStream;
+import java.util.ArrayList;
+
+import org.json.JSONException;
+
+import com.example.guiaescalada.beans.Lugar;
+import com.example.guiaescalada.beans.Weather;
+import com.example.guiaescalada.parser.WeatherParser;
+import com.example.guiaescalada.util.WeatherHttpClient;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageView;
+
+public class Clima extends ListaLugares {
+
+	Context ctx = this;
+	ArrayList<Button> botones = new ArrayList<Button>(5);
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.clima);
+		encuentraBotones();
+		final Lugar lugar = (Lugar)getIntent().getExtras().getSerializable("parametro");
+		this.title.setText("Clima de " + lugar.getNombre());
+		XMLWeatherTask task = new XMLWeatherTask();
+		String[] coordenadas = lugar.getCoordenadas().split(",");
+		
+		task.execute(new String[]{"lat=" + coordenadas[0] + "&lon=" + coordenadas[1]});
+	}
+	
+	private class XMLWeatherTask extends AsyncTask<String, Void, ArrayList<Weather>> {
+		
+		@Override
+		protected ArrayList<Weather> doInBackground(String... params) {
+			ArrayList<Weather> weather = new ArrayList<Weather>();
+			String data = ((new WeatherHttpClient()).getWeatherData(params[0]));
+
+			try {
+				weather = WeatherParser.getWeather(data);
+			} catch (JSONException e) {				
+				e.printStackTrace();
+			}
+			return weather;
+		}
+		
+		@Override
+		protected void onPostExecute(ArrayList<Weather> weather) {			
+			super.onPostExecute(weather);
+			for(int i = 0; i < weather.size(); i++)
+			{
+				//Url del icono
+				String icn = "http://openweathermap.org/img/w/"+weather.get(i).currentCondition.getIcon()+".png" ;
+				
+				if(i==0)
+					new DownloadImageTask((ImageView) findViewById(R.id.iconoclima0)).execute(icn);
+				if(i==1)
+					new DownloadImageTask((ImageView) findViewById(R.id.iconoclima1)).execute(icn);
+				if(i==2)
+					new DownloadImageTask((ImageView) findViewById(R.id.iconoclima2)).execute(icn);
+				if(i==3)
+					new DownloadImageTask((ImageView) findViewById(R.id.iconoclima3)).execute(icn);
+				if(i==4)
+					new DownloadImageTask((ImageView) findViewById(R.id.iconoclima4)).execute(icn);
+				
+				botones.get(i).setText("\tFecha : " + weather.get(i).currentCondition.getFecha()+"\n\tCondición : "+weather.get(i).currentCondition.getDescr()+"\n\tT° Actual : "+weather.get(i).temperature.getTemp()+" �C\n\tT° Máxima : "+weather.get(i).temperature.getMaxTemp()+"�C\n\tT° Mínima : "+weather.get(i).temperature.getMinTemp()+"�C\n\tHumedad : "+weather.get(i).currentCondition.getHumidity()+"%\n\tViento :"+" " + Math.round(weather.get(i).wind.getSpeed() * 1.6) + "kps\n\tPresión : "+" " + weather.get(i).currentCondition.getPressure() +" hPa");
+			}
+		}
+   }
+	
+   @Override
+   public void onBackPressed() {
+	   finish();
+   }
+   public void encuentraBotones(){	
+	   for(int i = 0; i<5;i++){
+		  Button boton = new Button(ctx);
+		  if(i==0)
+			  boton = (Button)findViewById(R.id.clima_0);
+		  if(i==1)
+			  boton = (Button)findViewById(R.id.clima_1);
+		  if(i==2)
+			  boton = (Button)findViewById(R.id.clima_2);
+		  if(i==3)
+			  boton = (Button)findViewById(R.id.clima_3);
+		  if(i==4)
+			  boton = (Button)findViewById(R.id.clima_4);
+		  botones.add(boton);
+	   }
+   }
+}
+
+
+class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
+	  ImageView bmImage;
+
+	  public DownloadImageTask(ImageView bmImage) {
+	      this.bmImage = bmImage;
+	  }
+
+	  protected Bitmap doInBackground(String... urls) {
+	      String urldisplay = urls[0];
+	      Bitmap mIcon11 = null;
+	      try {
+	        InputStream in = new java.net.URL(urldisplay).openStream();
+	        mIcon11 = BitmapFactory.decodeStream(in);
+	      } catch (Exception e) {
+	          e.printStackTrace();
+	      }
+	      return mIcon11;
+	  }
+
+	  protected void onPostExecute(Bitmap result) {
+	      bmImage.setImageBitmap(result);	  
+      }
+}

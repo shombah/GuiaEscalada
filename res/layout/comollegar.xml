@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+	
+	<ImageView
+	    android:id="@+id/logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:scaleType="centerCrop"
+	    android:src="@drawable/bg_comollegar1"
+	    />
+	
+    <LinearLayout 
+        android:id="@+id/menuComoLlegar"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:background="@drawable/imageview_border_listazonas">
+		    <View
+		        android:id="@+id/imagenTitulo"
+		        android:layout_width="fill_parent"
+		        android:layout_height="100dp"
+		        android:background="@drawable/como_llegar" />
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="0.2">
+		    <ImageView
+		        android:id="@+id/imagenSeleccione"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dp"
+		        android:src="@drawable/seleccione"
+		        android:background="@drawable/imageview_border_listazonas" />
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical"
+	    	android:layout_weight="1">
+		    
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:gravity="center_horizontal">
+			    <Button
+			        android:id="@+id/locPublica"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Locomoción pública"
+			        android:textColor="@color/blanco"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/button_cerca"
+			        android:drawableLeft="@drawable/icono_tpublico" />
+		    </LinearLayout>
+		    
+			<LinearLayout 
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+	    		android:layout_weight="1"
+	    		android:gravity="center_horizontal">
+			    <Button
+			        android:id="@+id/locPrivada"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Locomoción privada"
+			        android:textColor="@color/blanco"
+			        android:layout_gravity="center_vertical"
+			        android:background="@drawable/button_cerca"
+			        android:drawableLeft="@drawable/icono_tprivado" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	
+	<ScrollView 
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:id="@+id/scrollInfoLlegar"
+    	android:visibility="gone">
+    	"
+	    <LinearLayout 
+	        android:id="@+id/infoComoLlegar"
+	        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:orientation="vertical">
+		    
+	         <LinearLayout 
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:background="@drawable/imageview_border_listazonas">
+			    <View
+			        android:id="@+id/imagenTitulo2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="100dp"
+			        android:background="@drawable/como_llegar" />
+		    </LinearLayout>
+		    
+	    	<TextView
+		        android:id="@+id/informacionComoLlegar"
+		        android:layout_width="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:layout_marginLeft="20dp"
+		        android:layout_marginRight="20dp"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/blanco" 
+	             android:background="@drawable/text_wrapper_peligros"
+		        android:layout_gravity="center"
+		        android:text="TextView" />
+	    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

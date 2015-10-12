@@ -1,0 +1,11 @@
+package com.example.guiaescalada;
+
+import android.os.Bundle;
+import com.unity3d.player.UnityPlayerActivity;
+
+public class RealidadAumentada extends UnityPlayerActivity  {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+}

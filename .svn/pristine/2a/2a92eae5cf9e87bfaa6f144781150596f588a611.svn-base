@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    >
+	<ImageView
+	    android:id="@+id/logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:scaleType="centerCrop"
+	    android:src="@drawable/bg_peligros2"
+	    />
+     <LinearLayout 
+        android:id="@+id/menuPeligros"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+    	
+         <LinearLayout 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical"
+	    	android:background="@drawable/imageview_border_listazonas">
+		    <View
+		        android:id="@+id/imagenTitulo"
+		        android:layout_width="fill_parent"
+		        android:layout_height="100dp"
+		        android:background="@drawable/peligros" />
+
+	    </LinearLayout>
+	    
+         <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:gravity="center_horizontal" 
+         >
+
+         <TextView
+             android:id="@+id/informacionPeligros"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginTop="20dp"
+             android:text="TextView"
+             android:textColor="@color/blanco" 
+             android:background="@drawable/text_wrapper_peligros"/>
+     </LinearLayout>
+    
+    </LinearLayout>
+
+     
+
+</RelativeLayout>

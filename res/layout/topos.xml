@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco">
+	
+    <LinearLayout
+        android:id="@+id/llInformacion"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/bg_listazonas3"
+	    android:orientation="vertical">
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/imageview_border_listazonas">
+		    
+		    <View
+		        android:id="@+id/imagenlugar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:src="@drawable/fotouno"
+		        android:padding="5dp"/>
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.2"
+	        android:gravity="center_horizontal" 
+	        android:background="@drawable/imageview_border_listazonas">
+	
+		    <ImageView
+		        android:id="@+id/listaRutas"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/listazonas"
+		         />
+		</LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1">
+		    
+		    <ListView
+		        android:id="@+id/ListView_lista_zonas"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		    </ListView>
+	    </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/llImagen"
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:visibility="gone">
+        
+        <ImageView
+            android:id="@+id/imagenlugarAmpliada"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,2991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mistertopo>
+	<lugar>
+		<id>1</id>
+		<nombre>Chacabuco</nombre>
+		<ubicacion>5ta Region</ubicacion>
+		<descripcion>Los cantos son medianos, pequeños y gran cantidad de agujeros de todo tamaño. Una característica de este lugar es que ciertas rutas asemejan la escalada sobre mármol rosado. Todo el sector está rodeado de una abundante vegetación de gran belleza y que le de un ambiente muy acogedor. Las características de la roca consisten en vías verticales y/o con extraplomos muy leves, de 15 a 25 metros de altura.</descripcion>
+		<acampar>No hay permiso para acampar en Chacabuco</acampar>
+		<peligro>En este sector  está la presencia de la vinchuca de las rocas. Basta con no caminar a pie descalzo ni dejar mochilas abiertas para no tener problema con esta.</peligro>
+		<llegar>La única forma de llegar es en auto, donde en la carretera Santiago-Los Andes y a 70 km. de Santiago aparece hacia el Este la entrada a la cuesta Chacabuco, donde a 5 km. aparece a mano izquierda el sector para escalar.</llegar>
+		<imagen>chacabuco</imagen>
+		<coordenadas>-33.016862,-70.699749</coordenadas>
+		<zona>
+			<id>1</id>
+			<idlugar>1</idlugar>
+			<nombre>Piola</nombre>
+			<imagen>piola</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>1</idzona>
+				<nombre>Cuático</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>1</idzona>
+				<nombre>Penetreitor</nombre>
+				<dificultad>7c / 5.12d</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>1</idzona>
+				<nombre>Hoy no se fía</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>4</id>
+				<idzona>1</idzona>
+				<nombre>Camino de tierra</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>       
+			<ruta>	    
+				<id>5</id>
+				<idzona>1</idzona>
+				<nombre>Factor polvo</nombre>
+				<dificultad>6c+/ 5.11c</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>6</id>
+				<idzona>1</idzona>
+				<nombre>Patanes</nombre>
+				<dificultad>6c+/ 5.11c</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>7</id>
+				<idzona>1</idzona>
+				<nombre>Combo en lo hocico</nombre>
+				<dificultad>6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>8</id>
+				<idzona>1</idzona>
+				<nombre>Escurre machucao</nombre>
+				<dificultad>5-/ 5.8</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>9</id>
+				<idzona>1</idzona>
+				<nombre>Bicho psicótico</nombre>
+				<dificultad>5+/5.9</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>10</id>
+				<idzona>1</idzona>
+				<nombre>Gases del orificio</nombre>
+				<dificultad>6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>11</id>
+				<idzona>1</idzona>
+				<nombre>Maca conceptual</nombre>
+				<dificultad>6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>11</id>
+				<idzona>1</idzona>
+				<nombre>Maca conceptual</nombre>
+				<dificultad>6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>12</id>
+				<idzona>1</idzona>
+				<nombre>Piola #</nombre>
+				<dificultad>6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>13</id>
+				<idzona>1</idzona>
+				<nombre>Chaucha</nombre>
+				<dificultad>6b+/ 5.11a</dificultad>
+			</ruta>
+		</zona>	
+		<zona>
+			<id>2</id>
+			<idlugar>1</idlugar>
+			<nombre>Marmol</nombre>
+			<imagen>marmol</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>2</idzona>
+				<nombre>La ley del chico</nombre>
+				<dificultad>5+ / 5.9</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>2</idzona>
+				<nombre>Voy y vuelvo</nombre>
+				<dificultad>6a+ / 5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>2</idzona>
+				<nombre>Camboyanas party</nombre>
+				<dificultad>6a / 5.10b</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>4</id>
+				<idzona>2</idzona>
+				<nombre>Quiltro Virtual</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			 <ruta>	    
+				<id>5</id>
+				<idzona>2</idzona>
+				<nombre>Vía crucis</nombre>
+				<dificultad>6b/ 5.10d</dificultad>
+			</ruta>		
+			<ruta>	    
+				<id>6</id>
+				<idzona>2</idzona>
+				<nombre>Delirio hemorroidal</nombre>
+				<dificultad>5+/ 5.9</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>7</id>
+				<idzona>2</idzona>
+				<nombre>Ipso facto</nombre>
+				<dificultad>6b+/ 5.11a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>8</id>
+				<idzona>2</idzona>
+				<nombre>Potencia fatal</nombre>
+				<dificultad>5-/ 5.8</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>9</id>
+				<idzona>2</idzona>
+				<nombre>Ultra carnaza</nombre>
+				<dificultad>5-/ 5.8</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>10</id>
+				<idzona>2</idzona>
+				<nombre>El minotauro fifón</nombre>
+				<dificultad>6b/ 5.10d</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>11</id>
+				<idzona>2</idzona>
+				<nombre>Directa mármol</nombre>
+				<dificultad>7b+/ 5.12c?</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>12</id>
+				<idzona>2</idzona>
+				<nombre>Plop</nombre>
+				<dificultad>6c+/ 5.11c (por el filo)</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>13</id>
+				<idzona>2</idzona>
+				<nombre>Kamasutra</nombre>
+				<dificultad>6c/ 5.11b</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>14</id>
+				<idzona>2</idzona>
+				<nombre>El enano quiere nabo</nombre>
+				<dificultad>6b+/ 5.11a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>3</id>
+			<idlugar>1</idlugar>
+			<nombre>Multilargo</nombre>
+			<imagen>multilargo</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>3</idzona>
+				<nombre>Escuela</nombre>
+				<dificultad>5-/ 5.8</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>3</idzona>
+				<nombre>Wena Naty</nombre>
+				<dificultad>5+/ 5.9</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>3</idzona>
+				<nombre>Gohan</nombre>
+				<dificultad>5+/ 5.9</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>4</id>
+				<idzona>3</idzona>
+				<nombre>Gato Callejero</nombre>
+				<dificultad>5+/ 5.9</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>5</id>
+				<idzona>3</idzona>
+				<nombre>La petarda</nombre>
+				<dificultad> L1 4+/5.7 // L2 5+/5.9 // L3 5+/5.9</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>6</id>
+				<idzona>3</idzona>
+				<nombre>Escuelita II</nombre>
+				<dificultad>5- / 5.8</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>7</id>
+				<idzona>3</idzona>
+				<nombre>Escuelita I</nombre>
+				<dificultad>4+ / 5.7</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>8</id>
+				<idzona>3</idzona>
+				<nombre>Marmo </nombre>
+				<dificultad>L1 6a/ 5.10a // L2 5+/ 5.9</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>9</id>
+				<idzona>3</idzona>
+				<nombre>De todo CSM</nombre>
+				<dificultad>L1 5+/ 5.9 // L2 6a+/ 5.10c //L3 6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>10</id>
+				<idzona>3</idzona>
+				<nombre>Duende garrapata</nombre>
+				<dificultad>L1 6a/ 5.10a</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>11</id>
+				<idzona>3</idzona>
+				<nombre>Los deligüentes</nombre>
+				<dificultad>6a/ 5.10a  (vía de 30 metros)</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>12</id>
+				<idzona>3</idzona>
+				<nombre>Sin nombre</nombre>
+				<dificultad>3+/ 5.5  solo top</dificultad>
+			</ruta>
+			<ruta>	    
+				<id>13</id>
+				<idzona>3</idzona>
+				<nombre>Sin nombre</nombre>
+				<dificultad>3+/ 5.5  solo top</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>2</id>
+		<nombre>Las Chilcas</nombre>
+		<ubicacion>RM</ubicacion>
+		<descripcion>Excelente lugar de escalada que se encuentra a 80 kms de Santiago, en el límite de la Quinta Región con la Metropolitana, de fácil acceso, existiendo lugares para acampar y abastecerse de agua y comida.
+		El clima es de tipo desértico templado, lo que permite escalar durante todo el año, excepto cuando llueve o el calor en verano obliga a sólo hacerlo por las mañanas o entrada la tarde.
+		Este importante lugar de escalada se empezó a equipar a mediados de los 90´ debido en parte al sobre-equipamiento de las rutas del manzano en ese entonces. Hoy en día existen un centenar de vías que van desde el quinto grado hasta octavos en su última letra, predominando los extraplomos y tomas de tipo agujero y romos. Es importante saber que la roca es conglomerado que con el tiempo suelta uno que otro pedazo, por lo cual estar siempre atento a caída de rocas es fundamental. Por otro lado, este tipo de roca es único como zona de escalada en la zona central.</descripcion>
+		<acampar>Existen dos zonas de acampar libre
+		-La primera esta prácticamente a un costado de la carretera, a unos metros de la roca que dice “cristo viene”. El terreno es parejo y da para varias carpas. La desventaja es que está muy a la vista si es que dejan sus cosas mientras van a escalar, y que en la noche puede ser algo molesto dormir con el paso continúo de camiones.
+		-La segunda está a los pies del sector del desplome, en el fondo a un costado de un pequeño y apagado riachuelo, el cual suele estar con agua casi todo el año.</acampar>
+		<peligro>Existe la especie vinchuca de roca (Triatoma Spinolai) que en un estudio por el mismo autor de está guía, sólo se encontró que un 2% de las vinchucas del lugar eran portadoras del mal de Chagas. Estos insectos se alimentan de sangre y sus hábitos son diurnos y nocturnos. Su picadura es indolora y sólo produce picazón horas después. Los ratones de campo de las Chilcas pueden ser bastante audaces cuando de comida se trata, existen casos en que han destruido carpas y mochilas en busca de alimento. Dejar provisiones colgada a árboles puede ser una buena solución. Por las características de las Chilcas (conglomerado), existe una buena meteorización, por ende es importante estar siempre atento y un buen casco no está demás para el que asegura.</peligro>
+		<llegar>La única forma de llegar es en auto, donde en la carretera Santiago-Los Andes y a 70 km. de Santiago aparece hacia el Este la entrada a la cuesta Chacabuco, donde a 5 km. aparece a mano izquierda el sector para escalar.</llegar>
+		<imagen>laschilcas</imagen>
+		<coordenadas>-32.852005,-70.874709</coordenadas>
+		<zona>
+			<id>4</id>
+			<idlugar>2</idlugar>
+			<nombre>Cubo cara este</nombre>
+			<imagen>cubocaraeste</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>4</idzona>
+				<nombre>Zona de incertidumbre</nombre>
+				<dificultad>6a+/5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>4</idzona>
+				<nombre>Y tú quien eres</nombre>
+				<dificultad>6b+/5.11</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>4</idzona>
+				<nombre>Me da lo mismo</nombre>
+				<dificultad>6c/ 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>4</idzona>
+				<nombre>Esperanza</nombre>
+				<dificultad>6c+ / 5.11b</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>5</id>
+			<idlugar>2</idlugar>
+			<nombre>Cubo cara norte – carretera</nombre>
+			<imagen>cubocaranorte</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>5</idzona>
+				<nombre>Un arranque feroz</nombre>
+				<dificultad>7c+/ 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>5</idzona>
+				<nombre>La pata del diablo</nombre>
+				<dificultad>7b+/ 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>5</idzona>
+				<nombre>Kamadi</nombre>
+				<dificultad>7c/ 5.12d</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>5</idzona>
+				<nombre>Doble discurso</nombre>
+				<dificultad>7c+/ 5.13a</dificultad>
+			</ruta>	
+			<ruta>
+				<id>5</id>
+				<idzona>5</idzona>
+				<nombre>La pura puntita</nombre>
+				<dificultad>8a+/ 5.13c</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>5</idzona>
+				<nombre>Don nadie</nombre>
+				<dificultad>7b/ 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>5</idzona>
+				<nombre>Contacto</nombre>
+				<dificultad>8b+/ 5.14a</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>5</idzona>
+				<nombre>Hay que pensarlo</nombre>
+				<dificultad>6b+/ 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>5</idzona>
+				<nombre>Menjunje</nombre>
+				<dificultad>6c+/ 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>5</idzona>
+				<nombre>Con permiso</nombre>
+				<dificultad>6b+/ 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>5</idzona>
+				<nombre>La furia del ermitaño</nombre>
+				<dificultad>6b/ 5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>5</idzona>
+				<nombre>Hazme si puedes</nombre>
+				<dificultad>7b+/ 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>5</idzona>
+				<nombre>Proyecto</nombre>
+				<dificultad>7b+/ 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>14</id>
+				<idzona>5</idzona>
+				<nombre>Puro contacto</nombre>
+				<dificultad>8c/ 5.14b</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>6</id>
+			<idlugar>2</idlugar>
+			<nombre>Cubo cara oeste</nombre>
+			<imagen>cubocaraoeste</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>6</idzona>
+				<nombre>No puedor</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>6</idzona>
+				<nombre>Queda UD. despedido</nombre>
+				<dificultad>7a / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>6</idzona>
+				<nombre>No mames guey</nombre>
+				<dificultad>6c / 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>6</idzona>
+				<nombre>Pajeros en su tinta</nombre>
+				<dificultad>6b / 5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>6</idzona>
+				<nombre>Karma</nombre>
+				<dificultad>6b / 5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>6</idzona>
+				<nombre>El principicio</nombre>
+				<dificultad>6c / 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>6</idzona>
+				<nombre>Suplicio chino</nombre>
+				<dificultad>6c / 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>6</idzona>
+				<nombre>Cabro culiao</nombre>
+				<dificultad>6b / 5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>6</idzona>
+				<nombre>Sin semilla</nombre>
+				<dificultad>6b+ / 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>6</idzona>
+				<nombre>Buena tela</nombre>
+				<dificultad>6a+ / 5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>6</idzona>
+				<nombre>Meteorito</nombre>
+				<dificultad>6a+ / 5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>6</idzona>
+				<nombre>Cachupín</nombre>
+				<dificultad>5+ / 5.9</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>6</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>6b / 5.10d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>7</id>
+			<idlugar>2</idlugar>
+			<nombre>Espino</nombre>
+			<imagen>espino</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>7</idzona>
+				<nombre>Eso no mas</nombre>
+				<dificultad>4 / 5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>7</idzona>
+				<nombre>Eso menos</nombre>
+				<dificultad>6a+ / 5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>7</idzona>
+				<nombre>Cauto</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>7</idzona>
+				<nombre>Blanca nieve y los 7 polvitos</nombre>
+				<dificultad>8a+ / 5.13c</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>7</idzona>
+				<nombre>Dorremifasol</nombre>
+				<dificultad>8a / 5.13b</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>7</idzona>
+				<nombre>Vuelo a ciegas</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>7</idzona>
+				<nombre>Suerte de un principiante</nombre>
+				<dificultad>5- / 5.9</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>7</idzona>
+				<nombre>Ruta escuela</nombre>
+				<dificultad>4 / 5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>7</idzona>
+				<nombre>Sin permiso</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>7</idzona>
+				<nombre>La cague</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>7</idzona>
+				<nombre>Tal cual</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>8</id>
+			<idlugar>2</idlugar>
+			<nombre>Círculo</nombre>
+			<imagen>circulo</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>8</idzona>
+				<nombre>Sexo sentido</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>8</idzona>
+				<nombre>El poder de la mente</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>8</idzona>
+				<nombre>Emilio's way</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>8</idzona>
+				<nombre>Circulo vicioso</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>8</idzona>
+				<nombre>Um araña</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>8</idzona>
+				<nombre>E' no e'</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>8</idzona>
+				<nombre>Vinchueca</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>8</idzona>
+				<nombre>Tripanosoma</nombre>
+				<dificultad>6b+ / 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>8</idzona>
+				<nombre>Mefisto</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>9</id>
+			<idlugar>2</idlugar>
+			<nombre>Transilvania</nombre>
+			<imagen>transilvania</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>9</idzona>
+				<nombre>Cuajinais</nombre>
+				<dificultad>6b / 5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>9</idzona>
+				<nombre>Barnabas Colins</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>9</idzona>
+				<nombre>Por la boca muere el pez</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>9</idzona>
+				<nombre>Gato por liebre</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>9</idzona>
+				<nombre>Poseidón</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>9</idzona>
+				<nombre>Nosferatus</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>9</idzona>
+				<nombre>Tango del Chango</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>10</id>
+			<idlugar>2</idlugar>
+			<nombre>Diabólica</nombre>
+			<imagen>diabolica</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>10</idzona>
+				<nombre>Tótem</nombre>
+				<dificultad>6a / 5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>10</idzona>
+				<nombre>Capeta</nombre>
+				<dificultad>6b+ / 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>10</idzona>
+				<nombre>Presagios</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>10</idzona>
+				<nombre>Simpatía por el diablo</nombre>
+				<dificultad>8a / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>10</idzona>
+				<nombre>Maleficio</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>10</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>5+ / 5.9</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>10</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>5+ / 5.9</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>11</id>
+			<idlugar>2</idlugar>
+			<nombre>Plan zeta</nombre>
+			<imagen>planzeta</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>11</idzona>
+				<nombre>La burla</nombre>
+				<dificultad>6a / 5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>11</idzona>
+				<nombre>Félix el chato</nombre>
+				<dificultad>6a / 5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>11</idzona>
+				<nombre>Plan Z</nombre>
+				<dificultad>6a+ / 5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>11</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>6a / 5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>11</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>6a / 5.10a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>12</id>
+			<idlugar>2</idlugar>
+			<nombre>Las cabras</nombre>
+			<imagen>lascabras</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>12</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>12</idzona>
+				<nombre>Chagual</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>12</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>12</idzona>
+				<nombre>Los huevos de la araña negra</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>12</idzona>
+				<nombre>Aráñame los huevos negra</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>12</idzona>
+				<nombre>Maracuya</nombre>
+				<dificultad>6c / 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>12</idzona>
+				<nombre>A luca</nombre>
+				<dificultad>6a / 5.10b</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>13</id>
+			<idlugar>2</idlugar>
+			<nombre>Piscina</nombre>
+			<imagen>piscina</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>13</idzona>
+				<nombre>La cosa nostra</nombre>
+				<dificultad>8a+ / 5.13c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>13</idzona>
+				<nombre>Tolerancia cero</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>14</id>
+			<idlugar>2</idlugar>
+			<nombre>Poética</nombre>
+			<imagen>poetica</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>14</idzona>
+				<nombre>Asikalador</nombre>
+				<dificultad>8b / 5.13d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>14</idzona>
+				<nombre>Acción vital</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>14</idzona>
+				<nombre>Días y vías</nombre>
+				<dificultad>8a / 5.13b</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>15</id>
+			<idlugar>2</idlugar>
+			<nombre>Poética cara oeste</nombre>
+			<imagen>poeticacaraoeste</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>15</idzona>
+				<nombre>Me gustan cuando callan</nombre>
+				<dificultad>8b / 5.13d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>15</idzona>
+				<nombre>Si los perros ladran es por que cabalgamos</nombre>
+				<dificultad>8c / 5.14b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>15</idzona>
+				<nombre>Herejía</nombre>
+				<dificultad>8b+ / 5.14a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>15</idzona>
+				<nombre>Escaramujo</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>16</id>
+			<idlugar>2</idlugar>
+			<nombre>Muela mayor cara sur</nombre>
+			<imagen>muelamayorcarasur</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>16</idzona>
+				<nombre>Rigor Mortis</nombre>
+				<dificultad>7c / 5.12d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>16</idzona>
+				<nombre>Luchoca</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>16</idzona>
+				<nombre>Será po</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>16</idzona>
+				<nombre>Mañosín</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>17</id>
+			<idlugar>2</idlugar>
+			<nombre>Muela mayor cara este</nombre>
+			<imagen>muelamayorcaraeste</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>17</idzona>
+				<nombre>Luchin</nombre>
+				<dificultad>8b / 5.13d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>17</idzona>
+				<nombre>Cristo llegó</nombre>
+				<dificultad>7c / 5.12d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>18</id>
+			<idlugar>2</idlugar>
+			<nombre>Escondida (antisika)</nombre>
+			<imagen>escondida</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>18</idzona>
+				<nombre>Tripolar</nombre>
+				<dificultad>6b+ / 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>18</idzona>
+				<nombre>Aurora</nombre>
+				<dificultad>6b+ / 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>18</idzona>
+				<nombre>Virginie</nombre>
+				<dificultad>6c / 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>18</idzona>
+				<nombre>Diente sikado</nombre>
+				<dificultad>6b+ / 5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>18</idzona>
+				<nombre>Las señoritas no existen</nombre>
+				<dificultad>6c / 5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>18</idzona>
+				<nombre>Ze pequenho</nombre>
+				<dificultad>6b / 5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>18</idzona>
+				<nombre>Ruta de acceso</nombre>
+				<dificultad>4 / 5.7</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>19</id>
+			<idlugar>2</idlugar>
+			<nombre>San Pateste</nombre>
+			<imagen>sanpateste</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>19</idzona>
+				<nombre>1er Largo</nombre>
+				<dificultad>4 / 5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>19</idzona>
+				<nombre>2do Largo</nombre>
+				<dificultad>5- / 5.8</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>19</idzona>
+				<nombre>3er Largo</nombre>
+				<dificultad>6a / 5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>19</idzona>
+				<nombre>4to Largo</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>19</idzona>
+				<nombre>5to Largo</nombre>
+				<dificultad>6a / 5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>19</idzona>
+				<nombre>6to Largo</nombre>
+				<dificultad>3 / 5.6</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>20</id>
+			<idlugar>2</idlugar>
+			<nombre>Desplomilandia</nombre>
+			<imagen>desplomilandia</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>20</idzona>
+				<nombre>C-men</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>20</idzona>
+				<nombre>De mano a mono</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>20</idzona>
+				<nombre>Escorpión</nombre>
+				<dificultad>7a+ / 5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>20</idzona>
+				<nombre>Circo romano</nombre>
+				<dificultad>7c / 5.12d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>20</idzona>
+				<nombre>Har magedon</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>20</idzona>
+				<nombre>Luna creciente</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>20</idzona>
+				<nombre>Los sueños de morgana</nombre>
+				<dificultad>7c+ / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>20</idzona>
+				<nombre>Los trapecistas</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>20</idzona>
+				<nombre>Chagasic park</nombre>
+				<dificultad>8a / 5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>20</idzona>
+				<nombre>Chubaca</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>20</idzona>
+				<nombre>Con sangre en el ojo</nombre>
+				<dificultad>7b / 5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>20</idzona>
+				<nombre>Yoda</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>20</idzona>
+				<nombre>Citripio</nombre>
+				<dificultad>6c+ / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>14</id>
+				<idzona>20</idzona>
+				<nombre>Coliseo</nombre>
+				<dificultad>7- / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>15</id>
+				<idzona>20</idzona>
+				<nombre>De mono a mano</nombre>
+				<dificultad>7- / 5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>16</id>
+				<idzona>20</idzona>
+				<nombre>Pichichi</nombre>
+				<dificultad>7b+ / 5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>17</id>
+				<idzona>20</idzona>
+				<nombre>Happy endind</nombre>
+				<dificultad>7a / 5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>18</id>
+				<idzona>20</idzona>
+				<nombre>Hippie-Hippie-Hop</nombre>
+				<dificultad>7- / 5.11c</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>3</id>
+		<nombre>La palomera</nombre>
+		<ubicacion>RM</ubicacion>
+		<descripcion>Esta roca a un costado del camino es otra de esas zonas que están subusadas, siendo un lugar de muy fácil acceso e ideal para el verano pues le llega el sol desde el mediodía en adelante.  Con el auto a un par de metros de algunas vías, la caminata es nula (paraíso del escalador deportivo que no le gusta subir cerros). El sector es ideal para escuela, una por la baja dificultad de la gran mayoría y la otra por la cercanía de las chapas, algunas tal vez exageradamente cerca. La roca algo agresiva con las manos, posee una gran cantidad de agarres romos y agujeros gigantes que le dan una característica muy interesante a la escalada de este sector.</descripcion>
+		<acampar>Sin Información</acampar>
+		<peligro>Sin Información</peligro>
+		<llegar>Por el camino hacia Farellones, a 16 kms desde la entrada de avda. Las Condes, el camino se bifurca, hacia la derecha Farellones, pero deben tomar hacia la izquierda, camino usado principalmente por la industria minera, de ripio pero en muy buen estado. Desde esta bifurcación y a 4 kms aparece a mano izquierda el sector de la palomera que es imposible no verla (la del topo).</llegar>
+		<imagen>palomera</imagen>
+		<coordenadas>-33.345052,-70.364025</coordenadas>
+		<zona>
+			<id>21</id>
+			<idlugar>3</idlugar>
+			<nombre>Unica zona</nombre>
+			<imagen>lapalomera</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>21</idzona>
+				<nombre>Minnie</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>21</idzona>
+				<nombre>Pipe lake</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>21</idzona>
+				<nombre>Cachipun</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>21</idzona>
+				<nombre>La Negra</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>21</idzona>
+				<nombre>Chelin</nombre>
+				<dificultad>4+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>21</idzona>
+				<nombre>La ruta de todos</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>21</idzona>
+				<nombre>Chocolate</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>21</idzona>
+				<nombre>Who is your dady</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>21</idzona>
+				<nombre>Quien es tu papito</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>21</idzona>
+				<nombre>La furia del Oro</nombre>
+				<dificultad>6b+/5c</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>21</idzona>
+				<nombre>Obelix</nombre>
+				<dificultad>6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>21</idzona>
+				<nombre>Asterix</nombre>
+				<dificultad>6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>21</idzona>
+				<nombre>Dinosaurio</nombre>
+				<dificultad>6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>14</id>
+				<idzona>21</idzona>
+				<nombre>Cactus man</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>15</id>
+				<idzona>21</idzona>
+				<nombre>Cerebro</nombre>
+				<dificultad>6a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>16</id>
+				<idzona>21</idzona>
+				<nombre>Sin Nombre</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>17</id>
+				<idzona>21</idzona>
+				<nombre>Dos en Uno</nombre>
+				<dificultad>6a / 6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>18</id>
+				<idzona>21</idzona>
+				<nombre>Parrilla de palos</nombre>
+				<dificultad>7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>19</id>
+				<idzona>21</idzona>
+				<nombre>Sin nombre</nombre>
+				<dificultad>6+</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>4</id>
+		<nombre>Cochamo - Pared Seca</nombre>
+		<ubicacion>X Región</ubicacion>
+		<descripcion>Paredes de granito algunas que llegan a los mil metros, es un paraíso de la escalada tradicional, donde escaladores de todo el mundo viene a probar sus interminables vías y a pasar en ocasiones días sobre estas. Pero Cochamo también es un lugar increíble para la deportiva y tiene un sector en especial que vale la pena si solo te interesan los monolargos y la escalada deportiva. Pared Seca, lugar que recibe su nombre pues se puede escalar en días de lluvia pues pose una no despreciable cantidad de techos que protegen al escalador en esos tormentosos días de lluvia que suelen ser bastante comunes.</descripcion>
+		<acampar>La aparición del camping es obvia, pues aparece un claro con algunas comodidades.</acampar>
+		<peligro>En enero tábanos por mil, en ocasiones al borde de la locura. Lluvia, que sin ser peligro, de no estar preparado puedes pasar un mala y mojada experiencia.</peligro>
+		<llegar>Cochamo es un pueblo el cual le da el mismo nombre a su valle y la increíble zona de escalada. Desde Puerto Varas(cuidad importante de la 10 región) a Ensenada, luego de recorrer llegamos a Ralún, en el extremo del Estuario de Reloncaví, primer fiordo de la Patagonia Chilena. Continuamos avanzando por un camino sinuoso que bordea el borde oriental del Estuario, y llegamos poblado de Cochamo, el cual atravesamos y continuamos camino y a unos  pocos kilómetros nos encontraremos con un puente y antes de cruzarlo tomar a izquierda un camino de tierra. 8 kms después llegaran al final del camino y justo en ese lugar pueden dejar el auto donde se cobrara  la estadía y cuidado (1000 el día). Lo que viene es a pie, 10 kms de un treking razonablemente fácil (entre 4 a 5 hrs), que puede estar cargado al barro si la lluvia ha esta presente días anteriores.</llegar>
+		<imagen>cochamo</imagen>
+		<coordenadas>-41.418776,-72.143160</coordenadas>
+		<zona>
+			<id>22</id>
+			<idlugar>4</idlugar>
+			<nombre>Sector ducha la trucha</nombre>
+			<imagen>duchalatrucha</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>22</idzona>
+				<nombre>Ducha Trucha</nombre>
+				<dificultad>7b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>22</idzona>
+				<nombre>Chucha Chubascos de nuevo</nombre>
+				<dificultad>7b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>22</idzona>
+				<nombre>Te echo</nombre>
+				<dificultad>6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>22</idzona>
+				<nombre>Cachivache</nombre>
+				<dificultad>6-</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>22</idzona>
+				<nombre>Lucho como macho mucho</nombre>
+				<dificultad>7a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>22</idzona>
+				<nombre>Mucho no lucho</nombre>
+				<dificultad>6a+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>23</id>
+			<idlugar>4</idlugar>
+			<nombre>Sector la escuela</nombre>
+			<imagen>laescuela</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>23</idzona>
+				<nombre>Recreo</nombre>
+				<dificultad>4+</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>23</idzona>
+				<nombre>Rayuela</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>23</idzona>
+				<nombre>Como chico pa la escuela</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>23</idzona>
+				<nombre>Kinder</nombre>
+				<dificultad>4-</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>23</idzona>
+				<nombre>R con R de cigarrillos</nombre>
+				<dificultad>4+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>24</id>
+			<idlugar>4</idlugar>
+			<nombre>Perdón seco</nombre>
+			<imagen>perdonseco</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>24</idzona>
+				<nombre>Proyecto abierto</nombre>
+				<dificultad>6-</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>24</idzona>
+				<nombre>Épodca de sequía</nombre>
+				<dificultad>6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>24</idzona>
+				<nombre>Lanza Armstrong</nombre>
+				<dificultad>7c / 7b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>24</idzona>
+				<nombre>Entre el perdón y paredón</nombre>
+				<dificultad>7b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>24</idzona>
+				<nombre>Lleva puentes o seca puentes</nombre>
+				<dificultad>6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>24</idzona>
+				<nombre>Chucha chinga la mecha</nombre>
+				<dificultad>6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>24</idzona>
+				<nombre>Entre la espada y la pared</nombre>
+				<dificultad>6a+ / 6c / 7+</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>24</idzona>
+				<nombre>Rompe furniture</nombre>
+				<dificultad>7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>24</idzona>
+				<nombre>A palo seco</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>24</idzona>
+				<nombre>Maniao</nombre>
+				<dificultad>6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>24</idzona>
+				<nombre>Totem</nombre>
+				<dificultad>6c</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>25</id>
+			<idlugar>4</idlugar>
+			<nombre>Trimonometría (derecha)</nombre>
+			<imagen>trimonometriaderecha</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>25</idzona>
+				<nombre>Ñ</nombre>
+				<dificultad>6a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>25</idzona>
+				<nombre>Christmas route</nombre>
+				<dificultad>6a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>25</idzona>
+				<nombre>Trimonometria</nombre>
+				<dificultad>L1 6c // L2 7a+ // L3 6c+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>26</id>
+			<idlugar>4</idlugar>
+			<nombre>Sala de espera</nombre>
+			<imagen>saladeespera</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>26</idzona>
+				<nombre>Sala de espera</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>26</idzona>
+				<nombre>Que babo fuiste</nombre>
+				<dificultad>7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>26</idzona>
+				<nombre>Casi desmotivado</nombre>
+				<dificultad>7b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>26</idzona>
+				<nombre>Proyecto</nombre>
+				<dificultad>-</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>26</idzona>
+				<nombre>Nombre más largo que la vía</nombre>
+				<dificultad>6a+</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>5</id>
+		<nombre>La piedra romel</nombre>
+		<ubicacion>RM</ubicacion>
+		<descripcion>Es una pequeña zona de escalada que cuenta con una veintena de vías que van desde muy fácil a 7c, donde se puede escalar una buena cantidad de extraplomos. Queda a un costado del río “el manzano”, es considerado uno de los sectores de más fácil acceso y de gran belleza. Se encuentra en el interior del fundo “el Manzano”, el cual está destinado al camping y cobra una entrada por pasar a escalar</descripcion>
+		<acampar>Los lugares están rodeando las rocas y son obvios (pero no acampar a los pies de las vías), como también hay zonas habilitadas en el mismo camping. Si se quedan a acampar deben dar aviso en la portería,  y es casi seguro que les pedirán pagar la suma de los días que se quedaran, pues el cobro es por día.</acampar>
+		<peligro>Aún existen algunos spits que deben tener más de 20 años y que es preferible no usarlos. Actualmente casi todas las vías tienes cadenas y bolts. Una molestia más que un peligro, son los tábanos, los cuales abundan en verano. Árboles de litre rodean el lugar siendo abundantes y estos pueden producir dermatitis alérgicas en personas susceptibles</peligro>
+		<llegar>Desde la estación del metro Plaza Puente Alto (línea 5) tomar un bus que diga “Cajón del Maipo”. Si no conocen el lugar, pídanle al chofer que les avise cuando estén acercándose al sector de El Manzano. Bajarse según al lugar de escalada que se dirijan.</llegar>
+		<imagen>romel</imagen>
+		<coordenadas>-33.581003,-70.407862</coordenadas>
+		<zona>
+			<id>27</id>
+			<idlugar>5</idlugar>
+			<nombre>Cara de la entrada</nombre>
+			<imagen>caradelaentrada</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>27</idzona>
+				<nombre>El filo de las sombras</nombre>
+				<dificultad>6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>27</idzona>
+				<nombre>Matador</nombre>
+				<dificultad>7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>27</idzona>
+				<nombre>Murciélago</nombre>
+				<dificultad>7b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>27</idzona>
+				<nombre>Los clavos naranjos</nombre>
+				<dificultad>6b+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>28</id>
+			<idlugar>5</idlugar>
+			<nombre>Cara río sur</nombre>
+			<imagen>carariosur</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>28</idzona>
+				<nombre>El filo del coco</nombre>
+				<dificultad>6a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>28</idzona>
+				<nombre>Carlanga</nombre>
+				<dificultad>7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>28</idzona>
+				<nombre>Ruta escuela (solo Top)</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>29</id>
+			<idlugar>5</idlugar>
+			<nombre>Cara escuela</nombre>
+			<imagen>caraescuela</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>29</idzona>
+				<nombre>Shaolin no desesperes</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>29</idzona>
+				<nombre>-</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>29</idzona>
+				<nombre>-</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>29</idzona>
+				<nombre>-</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>29</idzona>
+				<nombre>-</nombre>
+				<dificultad>5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>29</idzona>
+				<nombre>La frontera</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>29</idzona>
+				<nombre>Argentino</nombre>
+				<dificultad>6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>29</idzona>
+				<nombre>Mamacuya</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>29</idzona>
+				<nombre>Mentirosa</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>30</id>
+			<idlugar>5</idlugar>
+			<nombre>Cara rio norte</nombre>
+			<imagen>cararionorte</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>30</idzona>
+				<nombre>Fakir</nombre>
+				<dificultad>6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>30</idzona>
+				<nombre>Tajo abierto</nombre>
+				<dificultad>6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>30</idzona>
+				<nombre>Azymut</nombre>
+				<dificultad>6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>30</idzona>
+				<nombre>Que evi</nombre>
+				<dificultad>6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>30</idzona>
+				<nombre>Azarate</nombre>
+				<dificultad>7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>30</idzona>
+				<nombre>La piedra empotrada</nombre>
+				<dificultad>6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>30</idzona>
+				<nombre>Eskeletor</nombre>
+				<dificultad>6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>30</idzona>
+				<nombre>Shaolin no desesperes</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>6</id>
+		<nombre>Armerillo</nombre>
+		<ubicacion>VII Región</ubicacion>
+		<descripcion>Pequeño sector a 60 kms de Talca y que esta a mitad de camino hacia Valle de los Condores. Buena escalada, cero caminata, hacen un lugar muy bueno para escalar. Se suma zona de Boulder y multilargos en las proximidades del lugar.</descripcion>
+		<acampar>Se puede ir por el día o acampar en un acogedor lugar a 30 mts. desde el sendero que esta a la izquierda de la gran pared. Se recomienda llevar agua aunque a 5oo mts. hay familias con buena voluntad y un negocio para cubrir algunas necesidades.</acampar>
+		<peligro>Sin información</peligro>
+		<llegar>Zona de Escalada Deportiva: Desde Talca hay que tomar el camino Internacional Pehuenche, hasta la altura del Km. 60 aprox. El sector se encuentra a orilla de camino, 300 mts. pasado el puente Maule Tronco.</llegar>
+		<imagen>armerillo</imagen>
+		<coordenadas>-35.719934,-71.200270</coordenadas>
+		<zona>
+			<id>31</id>
+			<idlugar>6</idlugar>
+			<nombre>Anfiteatro</nombre>
+			<imagen>anfiteatro</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>31</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>31</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>31</idzona>
+				<nombre>Consejos de arriero</nombre>
+				<dificultad>5.10d/6b</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>32</id>
+			<idlugar>6</idlugar>
+			<nombre>Techito</nombre>
+			<imagen>techito</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>32</idzona>
+				<nombre>Techito</nombre>
+				<dificultad>5.10c/6a+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>33</id>
+			<idlugar>6</idlugar>
+			<nombre>Gran bloque</nombre>
+			<imagen>granbloque</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>33</idzona>
+				<nombre>Sherporrazo</nombre>
+				<dificultad>5.13+/8+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>34</id>
+			<idlugar>6</idlugar>
+			<nombre>Gran pared</nombre>
+			<imagen>granparedarmerillo</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>34</idzona>
+				<nombre>La vida es larga y dura</nombre>
+				<dificultad>5.10d/6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>34</idzona>
+				<nombre>Burbuja</nombre>
+				<dificultad>5.12d/7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>34</idzona>
+				<nombre>Dinamita show</nombre>
+				<dificultad>5.11a/6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>34</idzona>
+				<nombre>Death batery</nombre>
+				<dificultad>5.11b/6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>34</idzona>
+				<nombre>En honor a la langosta</nombre>
+				<dificultad>5.11a/6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>34</idzona>
+				<nombre>Santo lango</nombre>
+				<dificultad>5.12c/7b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>34</idzona>
+				<nombre>Santo gotario</nombre>
+				<dificultad>5.12d/7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>34</idzona>
+				<nombre>Crónicas de una muerte anunciada</nombre>
+				<dificultad>5.13a/7c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>34</idzona>
+				<nombre>La comadreja</nombre>
+				<dificultad>5.10c/6a+</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>7</id>
+		<nombre>Las Palestras</nombre>
+		<ubicacion>RM</ubicacion>
+		<descripcion>En una zona de escalada que se encuentra en el sector de El Manzano. Conformado por roca volcánica, posee rutas de predominio vertical y extraplomo suaves, con dificultades que van desde 5 grado hasta 8a en un número sobre las 40 rutas en que las tomas son principalmente pequeños cantos y agujeros. Podrán encontrar rutas de 25 metros fáciles, a diferencia de las rutas más difíciles que tienden a ser cortas y explosivas. El equipamiento consta de bolts, químicos y con cada uno de sus anclajes compuestos por cadena para poder desequipar. El lugar es bastante hermoso por encontrarse inserto en un bosque típico de la zona central y por la vista del Cajón del Maipo.</descripcion>
+		<acampar>Se puede acampar a los pies de la roca en pequeñas terrenos con no darán para una carpa muy grande. No hay agua. Bajo la zona “todo por nada” hay mejores terrenos.</acampar>
+		<peligro>Una molestia más que un peligro, son los tábanos, los cuales abundan en verano. Árboles de litre rodean el lugar siendo abundantes y estos pueden producir dermatitis alérgicas en personas susceptibles.</peligro>
+		<llegar>En vehiculo particular dirigirse a El Manzano.</llegar>
+		<imagen>fogata</imagen>
+		<coordenadas>-33.581003,-70.407862</coordenadas>
+		<zona>
+			<id>35</id>
+			<idlugar>7</idlugar>
+			<nombre>Todo por nada</nombre>
+			<imagen>todopornada</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>35</idzona>
+				<nombre>Colodromo</nombre>
+				<dificultad>5.10a/6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>35</idzona>
+				<nombre>PAranoia</nombre>
+				<dificultad>5.11c/6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>35</idzona>
+				<nombre>Esquizofrenia</nombre>
+				<dificultad>5.11a/6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>35</idzona>
+				<nombre>Anchimaprens</nombre>
+				<dificultad>5.11b/6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>35</idzona>
+				<nombre>Con olor a once</nombre>
+				<dificultad>5.11a/6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>35</idzona>
+				<nombre>De Kiruza</nombre>
+				<dificultad>5.12d/7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>35</idzona>
+				<nombre>Topo Gigio</nombre>
+				<dificultad>5.10a/6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>35</idzona>
+				<nombre>Todo por nada</nombre>
+				<dificultad>5.9/5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>35</idzona>
+				<nombre>Copihue</nombre>
+				<dificultad>5.11d/7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>35</idzona>
+				<nombre>Michelin</nombre>
+				<dificultad>5.11d/7a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>36</id>
+			<idlugar>7</idlugar>
+			<nombre>Hidrofobia</nombre>
+			<imagen>hidrofobia</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>36</idzona>
+				<nombre>Marullo</nombre>
+				<dificultad>5.13c/8a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>36</idzona>
+				<nombre>Luna roja</nombre>
+				<dificultad>5.11c/6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>36</idzona>
+				<nombre>Macho man</nombre>
+				<dificultad>5.11d/7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>36</idzona>
+				<nombre>El cartucho</nombre>
+				<dificultad>5.12b/7b</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>36</idzona>
+				<nombre>Adicción</nombre>
+				<dificultad>5.12a/7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>36</idzona>
+				<nombre>El escultor</nombre>
+				<dificultad>5.12c/7b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>36</idzona>
+				<nombre>Entr cejas</nombre>
+				<dificultad>5.13a/7c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>36</idzona>
+				<nombre>Manjar de dedos</nombre>
+				<dificultad>5.12d/7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>36</idzona>
+				<nombre>Hidrofobia</nombre>
+				<dificultad>5.12a/7a+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>37</id>
+			<idlugar>7</idlugar>
+			<nombre>Popeye</nombre>
+			<imagen>popeye</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>37</idzona>
+				<nombre>Tu hermana</nombre>
+				<dificultad>5.11d/7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>37</idzona>
+				<nombre>El araucano</nombre>
+				<dificultad>5.12d/7c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>37</idzona>
+				<nombre>Leproso</nombre>
+				<dificultad>5.12a/7a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>37</idzona>
+				<nombre>Popeye</nombre>
+				<dificultad>5.11b/6c</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>38</id>
+			<idlugar>7</idlugar>
+			<nombre>Fogata</nombre>
+			<imagen>fogata</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>38</idzona>
+				<nombre>Tutti fruti</nombre>
+				<dificultad>5.10c/6a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>38</idzona>
+				<nombre>La fogata</nombre>
+				<dificultad>5.10a/6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>38</idzona>
+				<nombre>Venus</nombre>
+				<dificultad>5.10d/6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>38</idzona>
+				<nombre>Mamagallo</nombre>
+				<dificultad>5.10b/6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>38</idzona>
+				<nombre>La peta</nombre>
+				<dificultad>5.10b/6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>38</idzona>
+				<nombre>Espirales</nombre>
+				<dificultad>5.10d/6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>38</idzona>
+				<nombre>Icaro</nombre>
+				<dificultad>5.11c/6c+</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>38</idzona>
+				<nombre>Cochero pare</nombre>
+				<dificultad>5.11b/6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>38</idzona>
+				<nombre>X nada hacia la eternidad</nombre>
+				<dificultad>5.11b/6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>38</idzona>
+				<nombre>Alucinaciones</nombre>
+				<dificultad>5.11a/6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>38</idzona>
+				<nombre>Sambomba</nombre>
+				<dificultad>5.11a/6b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>38</idzona>
+				<nombre>Ocho Pinocho</nombre>
+				<dificultad>5.11b/6c</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>38</idzona>
+				<nombre>Exponencial</nombre>
+				<dificultad>5.9/5+</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>39</id>
+			<idlugar>7</idlugar>
+			<nombre>Constelaciones</nombre>
+			<imagen>constelaciones</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>39</idzona>
+				<nombre>Exponencial</nombre>
+				<dificultad>5.9/5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>39</idzona>
+				<nombre>Estrecho de Magallanes</nombre>
+				<dificultad>5.7/4</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>39</idzona>
+				<nombre>Principiante</nombre>
+				<dificultad>5.6/4-</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>39</idzona>
+				<nombre>Sueños Catabáticos</nombre>
+				<dificultad>5.10a/6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>39</idzona>
+				<nombre>Ratonil</nombre>
+				<dificultad>5.9/5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>39</idzona>
+				<nombre>Inspiraciones</nombre>
+				<dificultad>5.9/5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>39</idzona>
+				<nombre>Quetzal</nombre>
+				<dificultad>5.13b/8a</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>39</idzona>
+				<nombre>Capitán Pingaloca</nombre>
+				<dificultad>5.12c/7b+</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>39</idzona>
+				<nombre>Geisha</nombre>
+				<dificultad>5.11d/7a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>39</idzona>
+				<nombre>Presto</nombre>
+				<dificultad>5.10d/6b</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>39</idzona>
+				<nombre>Metoluis</nombre>
+				<dificultad>5.10c/6a+</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>39</idzona>
+				<nombre>Constelaciones</nombre>
+				<dificultad>5.9/5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>39</idzona>
+				<nombre>Pajaritos</nombre>
+				<dificultad>5.8/5-</dificultad>
+			</ruta>
+			<ruta>
+				<id>14</id>
+				<idzona>39</idzona>
+				<nombre>Ruta Escuela</nombre>
+				<dificultad>5.7/4+</dificultad>
+			</ruta>
+			<ruta>
+				<id>15</id>
+				<idzona>39</idzona>
+				<nombre>Ruta Escuela</nombre>
+				<dificultad>5.7/4+</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>8</id>
+		<nombre>Playa corazones</nombre>
+		<ubicacion>XV Región</ubicacion>
+		<descripcion>Este sector se encuentra por la costanera pasando el camino a las pesqueras donde termina el pavimento. Los vehículos se pueden dejar en el ultimo estacionamiento, desde el estacionamiento son aproximadamente entre 400 a 500 metros por el único sendero que hay. Después de la ultima cueva túnel a mano derecha están las rutas, son solo 5 las que hicimos pero en ese sector ya se encontraban 2 que no se encuentran en muy buen estado lo cual nosotros creemos que es por la calidad de las chapas es por eso que decidimos utilizar solo chapas petzl las cuales son de acero inoxidable pera ver como reaccionan a los factores climáticos de ese lugar para asi poder cambiarlas cuando presenten un poco de corrosión.</descripcion>
+		<acampar>NO</acampar>
+		<peligro>Es recomendable usar lentes de sol, protector solar y gorro debido a la radicación solar. Usar casco. Llevar siempre un mallon en cada ruta para los descuelgues. Considerar abundante agua ya que en el sector no hay y después de mediodía hace mucho calor.Tenga en cuenta las condiciones del oleaje del mar, ya que hay zonas del sendero que transitan a orilla de playa.</peligro>
+		<llegar>Por la costanera seguir el camino de las pesqueras hasta el último estacionamiento hacia playa corazones, de ahí seguir el sendero hasta después de la última cueva la cual es la más larga que mide como 25 metros de largo, al salir a mano derecha está el murallón con las rutas, son aproximadamente unos 400 a 500 metro los que relajadamente los puedes hacer de 10 a 15 minutos caminado.</llegar>
+		<imagen>playacorazones</imagen>
+		<coordenadas>-18.544294,-70.331595</coordenadas>
+		<zona>
+			<id>40</id>
+			<idlugar>8</idlugar>
+			<nombre>Zona única</nombre>
+			<imagen>zonaplayacorazones</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>40</idzona>
+				<nombre>Soplale el hoyo</nombre>
+				<dificultad>6+</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>40</idzona>
+				<nombre>Aló si, ya chao</nombre>
+				<dificultad>6+</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>40</idzona>
+				<nombre>La monita</nombre>
+				<dificultad>6+</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>40</idzona>
+				<nombre>A la chucha la chapa</nombre>
+				<dificultad>6+</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>40</idzona>
+				<nombre>Ruta antigua</nombre>
+				<dificultad>5+</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>40</idzona>
+				<nombre>Ruta antigua</nombre>
+				<dificultad>6a</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>40</idzona>
+				<nombre>Para de sufrir</nombre>
+				<dificultad>7+</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>9</id>
+		<nombre>El Arrayan</nombre>
+		<ubicacion>Región Metropolitana</ubicacion>
+		<descripcion>asdf</descripcion>
+		<acampar>asdf</acampar>
+		<peligro>asdf</peligro>
+		<llegar>asd</llegar>
+		<imagen>panoramicaarrayan</imagen>
+		<coordenadas>-33.334871,-70.472239</coordenadas>
+		<zona>
+			<id>41</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona 1</nombre>
+			<imagen>zona1arrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>41</idzona>
+				<nombre>Pata de vaca</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>41</idzona>
+				<nombre>Por Tutatis</nombre>
+				<dificultad>5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>41</idzona>
+				<nombre>Wena choro</nombre>
+				<dificultad>5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>41</idzona>
+				<nombre>La cadena</nombre>
+				<dificultad>5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>41</idzona>
+				<nombre>Piteate un flaite</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>41</idzona>
+				<nombre>La wenasa</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>41</idzona>
+				<nombre>Tu culito saca llama</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>41</idzona>
+				<nombre>Ramera rencorosa</nombre>
+				<dificultad>5.12d</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>41</idzona>
+				<nombre>Infiltrados</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>41</idzona>
+				<nombre>Proyecto</nombre>
+				<dificultad>5.13?</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>41</idzona>
+				<nombre>El diedro</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>41</idzona>
+				<nombre>Tranquitronco</nombre>
+				<dificultad>5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>41</idzona>
+				<nombre>No le mandes na</nombre>
+				<dificultad>5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>14</id>
+				<idzona>41</idzona>
+				<nombre>Papidog</nombre>
+				<dificultad>5.12c</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>42</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona 2</nombre>
+			<imagen>zona2arrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>42</idzona>
+				<nombre>Tranquitronco</nombre>
+				<dificultad>5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>42</idzona>
+				<nombre>Kiltro</nombre>
+				<dificultad>5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>42</idzona>
+				<nombre>Sika gay</nombre>
+				<dificultad>5.12d</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>42</idzona>
+				<nombre>Geko</nombre>
+				<dificultad>5.13c/d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>42</idzona>
+				<nombre>Ojo piojo</nombre>
+				<dificultad>5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>42</idzona>
+				<nombre>Chapa la que cuelga</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>42</idzona>
+				<nombre>La leona</nombre>
+				<dificultad>5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>42</idzona>
+				<nombre>Taco de gato</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>42</idzona>
+				<nombre>Pasa la quina</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>43</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona 3</nombre>
+			<imagen>zona3arrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>43</idzona>
+				<nombre>La leona</nombre>
+				<dificultad>5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>43</idzona>
+				<nombre>Taco de gato</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>43</idzona>
+				<nombre>Pasa la quina</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>43</idzona>
+				<nombre>Caupolican</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>43</idzona>
+				<nombre>La señora de Caupolican</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>43</idzona>
+				<nombre>Jesu</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>43</idzona>
+				<nombre>Diedro de Andres</nombre>
+				<dificultad>5.9</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>43</idzona>
+				<nombre>La ley de Murphy</nombre>
+				<dificultad>5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>43</idzona>
+				<nombre>Andate tranqui</nombre>
+				<dificultad>5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>43</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>43</idzona>
+				<nombre>¿?</nombre>
+				<dificultad>5.8</dificultad>
+			</ruta>
+			<ruta>
+				<id>12</id>
+				<idzona>43</idzona>
+				<nombre>Mala pata</nombre>
+				<dificultad>5.8</dificultad>
+			</ruta>
+			<ruta>
+				<id>13</id>
+				<idzona>43</idzona>
+				<nombre>Pata mala</nombre>
+				<dificultad>5.9</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>44</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona 4</nombre>
+			<imagen>zona4arrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>44</idzona>
+				<nombre>Missis Robinson</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>44</idzona>
+				<nombre>Arrancando del marido</nombre>
+				<dificultad>5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>44</idzona>
+				<nombre>Las lecciones</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>45</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona Dry Tooling</nombre>
+			<imagen>zonadrytoolingarrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>45</idzona>
+				<nombre>Concierto para metales</nombre>
+				<dificultad>M7</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>45</idzona>
+				<nombre>Proyecto</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>45</idzona>
+				<nombre>El piti Gonzales</nombre>
+				<dificultad>M8</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>45</idzona>
+				<nombre>Escalibur</nombre>
+				<dificultad>M8</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>46</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona 6</nombre>
+			<imagen>zona6arrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>46</idzona>
+				<nombre>Proyecto katana</nombre>
+				<dificultad>5.13?</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>46</idzona>
+				<nombre>Sambo</nombre>
+				<dificultad>5.12c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>46</idzona>
+				<nombre>Avispón verde</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>46</idzona>
+				<nombre>Ton Sai</nombre>
+				<dificultad>5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>46</idzona>
+				<nombre>Pura carne (mixta)</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>1</id>
+				<idzona>46</idzona>
+				<nombre>Pluma pluma</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>47</id>
+			<idlugar>9</idlugar>
+			<nombre>Zona del sol</nombre>
+			<imagen>zonasolarrayan</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>47</idzona>
+				<nombre>El quisco</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>47</idzona>
+				<nombre>Rotoburilador</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>47</idzona>
+				<nombre>Los Picapierdras</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>47</idzona>
+				<nombre>Proyecto</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>47</idzona>
+				<nombre>Proyecto</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>47</idzona>
+				<nombre>Chachas way</nombre>
+				<dificultad>5.8 (trad)</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+	<lugar>
+		<id>10</id>
+		<nombre>Petorca</nombre>
+		<ubicacion>Región de Valparaíso</ubicacion>
+		<descripcion>Petorca se encuentra al norte de la ciudad de San Felipe en la cuesta camino de Putaendo a Cabildo. Es una quebrada en el lecho de un rio que suele estar seco seco o con un bajo caudal. La roca es conglomerado y basalto un poco lavado por el paso de los años y el agua de rio.</descripcion>
+		<acampar>asdf</acampar>
+		<peligro>asdf</peligro>
+		<llegar>Deberán llegar a la plaza de Putaendo, pueblo que se encuentra a unos 15 kms al norte de San Felipe. Desde la plaza de Putaendo hasta la zona de escalada hay 26,5 kms.  Desde la plaza de Putaendo hay que dirigirse a Cabildo, el cual es un único camino que se mete a una cuesta con una gran cantidad de curvas. La zona de escalada está en el lecho de un rio que se encuentra en la orilla norte del camino. Hay una gran cantidad de sitios de estacionamiento. Desde el estacionamiento hay que bajar al lecho del rio que no son más de 5 minutos de bajada.</llegar>
+		<imagen>petorcapanoramica</imagen>
+		<coordenadas>-32.501696, -70.779116</coordenadas>
+		<zona>
+			<id>48</id>
+			<idlugar>10</idlugar>
+			<nombre>Machete</nombre>
+			<imagen>zonamachete</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>48</idzona>
+				<nombre>La geisha</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>48</idzona>
+				<nombre>Hermanos al pilpil</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>48</idzona>
+				<nombre>Te cruje</nombre>
+				<dificultad>5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>48</idzona>
+				<nombre>Cochinillo veneciano</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>48</idzona>
+				<nombre>Solo para cobardes</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>48</idzona>
+				<nombre>Rescantando a Vinchuca (proyecto)</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>48</idzona>
+				<nombre>Dulce camote</nombre>
+				<dificultad>5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>48</idzona>
+				<nombre>Vagisil</nombre>
+				<dificultad>5.13a/b</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>48</idzona>
+				<nombre>Road to Zion (proyecto)</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>48</idzona>
+				<nombre>Jose Zion</nombre>
+				<dificultad>5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>41</idzona>
+				<nombre>LA nueva fechoria</nombre>
+				<dificultad>5.12d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>49</id>
+			<idlugar>10</idlugar>
+			<nombre>Jabon</nombre>
+			<imagen>zonajabon</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>49</idzona>
+				<nombre>Welcom tu petorcas</nombre>
+				<dificultad>5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>49</idzona>
+				<nombre>Longaman</nombre>
+				<dificultad>5.13?</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>49</idzona>
+				<nombre>Monina</nombre>
+				<dificultad>5.13?</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>49</idzona>
+				<nombre>Jabón Popeye</nombre>
+				<dificultad>5.13?</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>49</idzona>
+				<nombre>Chocolate</nombre>
+				<dificultad>5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>49</idzona>
+				<nombre>Como para calentar</nombre>
+				<dificultad>5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>49</idzona>
+				<nombre>Coco bongo</nombre>
+				<dificultad>5.10a</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>49</idzona>
+				<nombre>Tela pum!</nombre>
+				<dificultad>5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>49</idzona>
+				<nombre>Welcom tu petorcas</nombre>
+				<dificultad>5.11d</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>49</idzona>
+				<nombre>Pura vida</nombre>
+				<dificultad>5.12d/13a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>50</id>
+			<idlugar>10</idlugar>
+			<nombre>Trilogia izquierda</nombre>
+			<imagen>trilogiaizq</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>50</idzona>
+				<nombre>Nawe nawe</nombre>
+				<dificultad>5.11c/d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>50</idzona>
+				<nombre>Verde de la buena</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>50</idzona>
+				<nombre>42 frases</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>50</idzona>
+				<nombre>Con la calma</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>50</idzona>
+				<nombre>Matón</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>50</idzona>
+				<nombre>Vaca muerta</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>50</idzona>
+				<nombre>Memo</nombre>
+				<dificultad>5.10c</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>50</idzona>
+				<nombre>Gran angular</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>51</id>
+			<idlugar>10</idlugar>
+			<nombre>Trilogia derecha</nombre>
+			<imagen>trilogiader</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>51</idzona>
+				<nombre>Occipucio</nombre>
+				<dificultad>5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>51</idzona>
+				<nombre>Macoña</nombre>
+				<dificultad>5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>51</idzona>
+				<nombre>Fito</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>51</idzona>
+				<nombre>Tolueno</nombre>
+				<dificultad>5.11a</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>51</idzona>
+				<nombre>Trilogia</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+			<ruta>
+				<id>6</id>
+				<idzona>51</idzona>
+				<nombre>Panspermia</nombre>
+				<dificultad>5.13a</dificultad>
+			</ruta>
+			<ruta>
+				<id>7</id>
+				<idzona>51</idzona>
+				<nombre>Super ocho</nombre>
+				<dificultad>5.13b</dificultad>
+			</ruta>
+			<ruta>
+				<id>8</id>
+				<idzona>51</idzona>
+				<nombre>El dictador</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>9</id>
+				<idzona>51</idzona>
+				<nombre>Desde aquí se ve tu casa</nombre>
+				<dificultad>5.8</dificultad>
+			</ruta>
+			<ruta>
+				<id>10</id>
+				<idzona>51</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>11</id>
+				<idzona>51</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.10a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>52</id>
+			<idlugar>10</idlugar>
+			<nombre>Trilogia al sol</nombre>
+			<imagen>trilogiaalsol</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>52</idzona>
+				<nombre>Concha tu Fito</nombre>
+				<dificultad>5.11c/d</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>52</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.8</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>52</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>52</idzona>
+				<nombre>Criminal con taladro</nombre>
+				<dificultad>5.7</dificultad>
+			</ruta>
+			<ruta>
+				<id>5</id>
+				<idzona>52</idzona>
+				<nombre>A vista y limpiando</nombre>
+				<dificultad>5.7</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>53</id>
+			<idlugar>10</idlugar>
+			<nombre>Catedral</nombre>
+			<imagen>catedral1</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>53</idzona>
+				<nombre>Herejes</nombre>
+				<dificultad>5.10d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>54</id>
+			<idlugar>10</idlugar>
+			<nombre>Catedral II</nombre>
+			<imagen>catedral2</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>54</idzona>
+				<nombre>Todos los dulfers llegan al cielo</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>54</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>54</idzona>
+				<nombre>Renacuajo</nombre>
+				<dificultad>5.12d</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>55</id>
+			<idlugar>10</idlugar>
+			<nombre>Catedral III</nombre>
+			<imagen>catedral3</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>55</idzona>
+				<nombre>Transpetorca</nombre>
+				<dificultad>5.12b</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>55</idzona>
+				<nombre>Como vos querai</nombre>
+				<dificultad>5.11c</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>55</idzona>
+				<nombre>Con la fe de un creyente</nombre>
+				<dificultad>5.11b</dificultad>
+			</ruta>
+			<ruta>
+				<id>4</id>
+				<idzona>55</idzona>
+				<nombre>No tengáis miedo de equiparlo a él</nombre>
+				<dificultad>5.12a</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>56</id>
+			<idlugar>10</idlugar>
+			<nombre>Zona boulder</nombre>
+			<imagen>zonaboulder1</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>56</idzona>
+				<nombre>Multi cordín</nombre>
+				<dificultad>5.14a</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>56</idzona>
+				<nombre>Solo top</nombre>
+				<dificultad>5.10b</dificultad>
+			</ruta>
+		</zona>
+		<zona>
+			<id>57</id>
+			<idlugar>10</idlugar>
+			<nombre>Zona boulder 2</nombre>
+			<imagen>zonaboulder2</imagen>
+			<ruta>
+				<id>1</id>
+				<idzona>57</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>2</id>
+				<idzona>57</idzona>
+				<nombre>S/N</nombre>
+				<dificultad>¿?</dificultad>
+			</ruta>
+			<ruta>
+				<id>3</id>
+				<idzona>57</idzona>
+				<nombre>Presa mala</nombre>
+				<dificultad>5.13d</dificultad>
+			</ruta>
+		</zona>
+	</lugar>
+</mistertopo>

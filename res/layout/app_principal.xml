@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall3"
+    tools:context="${relativePackage}.${activityClass}" >
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:background="@drawable/banner_topo">
+
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/topo" />
+	   
+	    <EditText
+	        android:id="@+id/text_buscar"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:drawableRight="@drawable/search2"
+	        android:hint="Buscar ruta o lugar"
+	        android:background="@drawable/border_text">
+	    </EditText>
+	    
+	    <Button
+		    android:id="@+id/buscar"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:background="@color/transparent"
+		    android:layout_alignRight="@id/text_buscar"/>
+	</RelativeLayout>
+	
+    <LinearLayout
+        android:id="@+id/layoutPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="vertical" 
+	        android:layout_weight="0.4">
+	 		
+	        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1">
+		 		<View 
+			        android:layout_width="wrap_content"
+			        android:layout_height="1dp" 
+		        	android:layout_gravity="top"
+			        android:background="@android:color/black"/>
+			</LinearLayout>
+			
+	        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center">
+		        <TextView
+		            android:id="@+id/lblLugaresVisitados"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@color/negro20"
+		            android:textStyle="bold"
+		            android:text="Bienvenid@"
+		            android:textAppearance="?android:attr/textAppearanceMedium"
+		            android:textColor="@color/blanco" />
+			</LinearLayout>
+			
+	        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"
+		        android:gravity="center">
+		        <View
+		            android:layout_width="250dp"
+		            android:layout_height="1dp"
+		            android:layout_gravity="bottom"
+		            android:background="@android:color/black" />
+	    	</LinearLayout>
+	    </LinearLayout>
+		
+	 	<LinearLayout
+		     android:layout_width="fill_parent"
+		     android:layout_height="wrap_content"
+		     android:gravity="center"
+		     android:orientation="vertical"
+		     android:layout_marginBottom="20dp" >
+			
+	 	     <RelativeLayout 
+	 	         android:layout_width="fill_parent"
+	 	         android:layout_height="wrap_content">
+				 <android.support.v4.view.ViewPager
+				     android:id="@+id/pager"
+				     android:layout_width="match_parent" 
+				     android:layout_height="100dp"/>
+	
+			 </RelativeLayout>
+		 </LinearLayout>
+	 </LinearLayout>
+	 
+	 <LinearLayout
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"
+	     android:orientation="horizontal"
+	      >
+	
+	     <Button
+	         android:id="@+id/listaLugares"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/button_cerca"
+	         android:drawableTop="@drawable/places"
+	         android:text="Lista de lugares"
+	         android:textColor="@color/blanco"
+	         android:layout_marginRight="5dp" />
+	
+	     <Button
+	         android:id="@+id/contacto"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/button_cerca"
+	         android:drawableTop="@drawable/contact"
+	         android:text="   Contactenos  "
+	         android:textColor="@color/blanco" />
+	</LinearLayout>
+	
+	<LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="center"
+    	android:layout_weight="1">
+	    
+	    <Button
+	        android:id="@+id/convertidor"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+     	    android:drawableTop="@drawable/converter"
+         	android:background="@drawable/button_cerca"
+         	android:layout_gravity="center"
+	        android:textColor="@color/blanco"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:text="Convertidor de graduación" />
+	    
+	    <TextView
+		    android:id="@+id/rocanbolt"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+		    android:text="Se agradece a Rocanbolt.com por la facilitación de fotos e información"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	</LinearLayout>
+</LinearLayout>
